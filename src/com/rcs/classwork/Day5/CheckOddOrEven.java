@@ -2,17 +2,15 @@ package com.rcs.classwork.Day5;
 
 import java.util.Scanner;
 
-public class CheckPassFail {
-
+public class CheckOddOrEven {
     public static void main(String[] args) {
-        System.out.println("Ievadam ciparu : ");
+        System.out.print("Ievadam ciparu : ");
         Scanner scanner = new Scanner(System.in);
         int dati = scanner.nextInt();
-        if (dati >= 50) {
-            System.out.println("PASS");
+        if (dati % 2 == 0) {
+            System.out.println("EVEN");
         } else {
-            System.out.println("FAIL");
+            System.out.println("ODD");
         }
-        System.out.println("DONE");
     }
 }
