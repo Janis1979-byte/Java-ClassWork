@@ -8,6 +8,7 @@ public class CheckPassFail {
         System.out.println("Ievadam ciparu : ");
         Scanner scanner = new Scanner(System.in);
         int dati = scanner.nextInt();
+        scanner.close();
         if (dati >= 50) {
             System.out.println("PASS");
         } else {

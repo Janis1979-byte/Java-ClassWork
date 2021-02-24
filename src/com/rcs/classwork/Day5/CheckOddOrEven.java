@@ -7,6 +7,7 @@ public class CheckOddOrEven {
         System.out.print("Ievadam ciparu : ");
         Scanner scanner = new Scanner(System.in);
         int dati = scanner.nextInt();
+        scanner.close();
         if (dati % 2 == 0) {
             System.out.println("EVEN");
         } else {
